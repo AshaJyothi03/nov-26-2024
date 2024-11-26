@@ -1,0 +1,10 @@
+import os
+file="c:/users/public/sample_prog.py"
+with open(file,"w") as fptr:
+    fptr.write("#welcom world \n #good morning")
+def remove_comm(file):
+    with open(file, "r") as fptr:
+        for i in fptr:
+            i=i.replace("#","")
+            print(i)
+remove_comm(file)
