@@ -1,0 +1,9 @@
+try:
+    x=20
+    print(x/3)
+except ZeroDivisionError:
+    print("zero is not divisible")
+else:
+    print("due to runtime error occurred")
+finally:
+    print("done")
