@@ -1,3 +1,7 @@
+'''6.Consider "Sample_Program.py" Python file. Write Python program
+# to remove the comment character from all the lines in a given Python source
+# file. Sample content of "Sample_Program.py" Python file is given below
+'''
 import os
 file="c:/users/public/sample_prog.py"
 with open(file,"w") as fptr:
